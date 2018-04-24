@@ -28,9 +28,9 @@
 }
  */
 #form {
-  display: none;
+  visibility: hidden;
 }
 
 #conversational-form {
-  min-height: 170vh;
+  min-height: 150vh;
 }

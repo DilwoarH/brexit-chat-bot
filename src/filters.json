@@ -1,0 +1,71 @@
+[
+  {
+    "label": "Supplier type",
+    "slug": "supplier-type",
+    "question": "Choose a supplier type:",
+    "filters": [
+      {
+        "label": "not a reseller",
+        "name": "resellingType",
+        "id": "resellingType-not_reseller",
+        "value": "not_reseller"
+      },
+      {
+        "label": "reseller providing extra features and support",
+        "name": "resellingType",
+        "id": "resellingType-reseller_extra_features_and_support",
+        "value": "reseller_extra_features_and_support"
+      },
+      {
+        "label": "reseller providing extra support",
+        "name": "resellingType",
+        "id": "resellingType-reseller_extra_support",
+        "value": "reseller_extra_support"
+      },
+      {
+        "label": "reseller (no extras)",
+        "name": "resellingType",
+        "id": "resellingType-reseller_no_extras",
+        "value": "reseller_no_extras"
+      }
+    ]
+  },
+  {
+    "label": "Staff security clearance",
+    "slug": "staff-security-clearance",
+    "question": "What level of staff clearance do you require?",    
+    "filters": [
+      {
+        "label": "conforms to BS7858:2012",
+        "name": "staffSecurityClearanceChecks",
+        "id": "staffSecurityClearanceChecks-staff_screening_to_bs7858_2012",
+        "value": "staff_screening_to_bs7858_2012"
+      }
+    ]
+  },
+  {
+    "label": "Minimum government security clearance",
+    "slug": "minimum-government-security-clearance",
+    "question": "What is the minimum government security clearance you require?",    
+    "filters": [
+      {
+        "label": "Developed Vetting (DV)",
+        "name": "governmentSecurityClearances",
+        "id": "governmentSecurityClearances-dv",
+        "value": "dv"
+      },
+      {
+        "label": "Security Clearance (SC)",
+        "name": "governmentSecurityClearances",
+        "id": "governmentSecurityClearances-sc",
+        "value": "sc"
+      },
+      {
+        "label": "Baseline Personnel Security Standard (BPSS)",
+        "name": "governmentSecurityClearances",
+        "id": "governmentSecurityClearances-bpss",
+        "value": "bpss"
+      }
+    ]
+  }
+]
