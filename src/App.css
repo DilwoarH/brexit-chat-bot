@@ -32,5 +32,7 @@
 }
 
 #conversational-form {
-  min-height: 150vh;
+  min-height: 75vh;
+  height: auto;
+  width: auto;
 }
