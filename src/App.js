@@ -3,25 +3,8 @@ import './App.css';
 import filter_data from './filters.json';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.cf = null; // <-- Conversational Form ref
-  }
-  componentDidMount() {
-    // customize your questions here
-    /* this.refs.lot.setAttribute('cf-questions', "What are you looking for?");
-    this.cf = window.cf.ConversationalForm.startTheConversation({
-      formEl: this.refs.form,
-      context: document.getElementById("cf-context"), // <-- bind this to an element instead of html body
-      flowStepCallback: (dto, success, error) => {
-        success();
-      }
-    }); */
-  }
-
   getFilters() {
     var checkboxes = [];
-    console.info('fdsfsd', filter_data);
     for (var i = 0; i < filter_data.length; i++) {
       var filters = filter_data[i].filters;
 
@@ -51,7 +34,6 @@ class App extends Component {
 
   render() {
     var filters = this.getFilters();
-    console.log(filters);
     return (
       <div>
         <div id="cf-context" > {/* <-- the cf form will be bound to this element */}
